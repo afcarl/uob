@@ -1,0 +1,105 @@
+# SVM
+## s_10.dat
+2014-12-23 08:20:06,700/SVC[INFO]: Loading data/bag-of-words/train_2_tfidf.svmlight
+2014-12-23 08:20:07,004/SVC[INFO]: Loading data/bag-of-words/test_2_tfidf.svmlight
+Fitting 3 folds for each of 18 candidates, totalling 54 fits
+[Parallel(n_jobs=9)]: Done   1 jobs       | elapsed: 51.1min
+[Parallel(n_jobs=9)]: Done  54 out of  54 | elapsed: 240.3min finished
+2014-12-23 13:07:51,438/SVC[INFO]: 0.988 (+/- 0.001) for {'kernel': 'rbf', 'C': 1, 'gamma': 0.5}
+2014-12-23 13:07:51,438/SVC[INFO]: 0.989 (+/- 0.001) for {'kernel': 'rbf', 'C': 1, 'gamma': 0.70710678118654757}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.989 (+/- 0.001) for {'kernel': 'rbf', 'C': 1, 'gamma': 1.0}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.988 (+/- 0.001) for {'kernel': 'rbf', 'C': 1, 'gamma': 1.4142135623730951}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.987 (+/- 0.001) for {'kernel': 'rbf', 'C': 1, 'gamma': 2.0}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.985 (+/- 0.001) for {'kernel': 'rbf', 'C': 1, 'gamma': 2.8284271247461903}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.992 (+/- 0.001) for {'kernel': 'rbf', 'C': 2, 'gamma': 0.5}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.992 (+/- 0.001) for {'kernel': 'rbf', 'C': 2, 'gamma': 0.70710678118654757}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.991 (+/- 0.001) for {'kernel': 'rbf', 'C': 2, 'gamma': 1.0}
+2014-12-23 13:07:51,439/SVC[INFO]: 0.990 (+/- 0.001) for {'kernel': 'rbf', 'C': 2, 'gamma': 1.4142135623730951}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.989 (+/- 0.001) for {'kernel': 'rbf', 'C': 2, 'gamma': 2.0}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.987 (+/- 0.001) for {'kernel': 'rbf', 'C': 2, 'gamma': 2.8284271247461903}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.993 (+/- 0.001) for {'kernel': 'rbf', 'C': 4, 'gamma': 0.5}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.992 (+/- 0.001) for {'kernel': 'rbf', 'C': 4, 'gamma': 0.70710678118654757}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.992 (+/- 0.001) for {'kernel': 'rbf', 'C': 4, 'gamma': 1.0}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.990 (+/- 0.001) for {'kernel': 'rbf', 'C': 4, 'gamma': 1.4142135623730951}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.989 (+/- 0.001) for {'kernel': 'rbf', 'C': 4, 'gamma': 2.0}
+2014-12-23 13:07:51,440/SVC[INFO]: 0.987 (+/- 0.001) for {'kernel': 'rbf', 'C': 4, 'gamma': 2.8284271247461903}
+2014-12-23 13:07:51,440/SVC[INFO]: params:{'kernel': 'rbf', 'C': 4, 'gamma': 0.5}
+2014-12-23 13:07:51,440/SVC[INFO]: score:0.992784642743
+2014-12-23 13:14:30,943/SVC[INFO]: Wrote preds to pred.dat
+
+
+# GBC
+## s_15.dat
+2014-12-29 04:32:47,632/SVC[INFO]: 0.989 (+/- 0.001) for {'max_features': 'sqrt', 'n_estimators': 10000, 'learning_rate': 0.001953125}
+2014-12-29 04:32:47,632/SVC[INFO]: 0.988 (+/- 0.002) for {'max_features': 'log2', 'n_estimators': 10000, 'learning_rate': 0.001953125}
+2014-12-29 04:32:47,632/SVC[INFO]: 0.989 (+/- 0.001) for {'max_features': 'sqrt', 'n_estimators': 10000, 'learning_rate': 0.00390625}
+2014-12-29 04:32:47,633/SVC[INFO]: 0.989 (+/- 0.002) for {'max_features': 'log2', 'n_estimators': 10000, 'learning_rate': 0.00390625}
+2014-12-29 04:32:47,633/SVC[INFO]: params:{'max_features': 'sqrt', 'n_estimators': 10000, 'learning_rate': 0.001953125}
+2014-12-29 04:32:47,633/SVC[INFO]: score:0.98928982219
+2014-12-29 04:32:47,937/SVC[INFO]: Wrote preds to pred.dat
+
+## s_16.dat
+use lsi300
+2014-12-29 23:17:27,689/SVC[INFO]: 0.990 (+/- 0.001) for {'max_features': 'sqrt', 'n_estimators': 10000, 'learning_rate': 0.001953125}
+2014-12-29 23:17:27,689/SVC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 10000, 'learning_rate': 0.001953125}
+2014-12-29 23:17:27,689/SVC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'sqrt', 'n_estimators': 10000, 'learning_rate': 0.00390625}
+2014-12-29 23:17:27,689/SVC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 10000, 'learning_rate': 0.00390625}
+2014-12-29 23:17:27,689/SVC[INFO]: params:{'max_features': 'log2', 'n_estimators': 10000, 'learning_rate': 0.00390625}
+2014-12-29 23:17:27,690/SVC[INFO]: score:0.991108779532
+2014-12-29 23:17:28,040/SVC[INFO]: Wrote preds to pred.dat
+
+2014-12-29 23:32:45,879/SVC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'sqrt', 'n_estimators': 50000, 'learning_rate': 0.001953125}
+2014-12-29 23:32:45,879/SVC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'sqrt', 'n_estimators': 50000, 'learning_rate': 0.00390625}
+2014-12-29 23:32:45,879/SVC[INFO]: params:{'max_features': 'sqrt', 'n_estimators': 50000, 'learning_rate': 0.001953125}
+2014-12-29 23:32:45,880/SVC[INFO]: score:0.990906896567
+2014-12-29 23:32:47,376/SVC[INFO]: Wrote preds to pred.dat
+
+## s_17.dat
+2014-12-30 03:03:33,621/GBC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0009765625}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.989 (+/- 0.001) for {'max_features': None, 'n_estimators': 50000, 'learning_rate': 0.0009765625}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.989 (+/- 0.001) for {'max_features': None, 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.001953125}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.989 (+/- 0.001) for {'max_features': None, 'n_estimators': 50000, 'learning_rate': 0.001953125}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.991 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0027621358640099515}
+2014-12-30 03:03:33,622/GBC[INFO]: 0.989 (+/- 0.001) for {'max_features': None, 'n_estimators': 50000, 'learning_rate': 0.0027621358640099515}
+2014-12-30 03:03:33,622/GBC[INFO]: params:{'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757}
+2014-12-30 03:03:33,622/GBC[INFO]: score:0.991300997275
+
+## s_19.dat
+2014-12-31 06:30:03,890/GBC[INFO]: 0.992 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 5}
+2014-12-31 06:30:03,890/GBC[INFO]: 0.992 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 06:30:03,890/GBC[INFO]: 0.992 (+/- 0.001) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 9}
+2014-12-31 06:30:03,890/GBC[INFO]: params:{'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 06:30:03,890/GBC[INFO]: score:0.992160260865
+
+## s_20.dat
+scaled by Scaler
+2014-12-31 07:09:21,450/GBC[INFO]: 0.992143 (+/- 0.001108) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:09:21,450/GBC[INFO]: params:{'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:09:21,451/GBC[INFO]: score:0.992143317714
+2014-12-31 07:09:22,577/GBC[INFO]: Wrote preds to pred.dat
+Normalizer
+2014-12-31 07:26:28,659/GBC[INFO]: 0.991759 (+/- 0.000911) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:26:28,660/GBC[INFO]: params:{'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:26:28,660/GBC[INFO]: score:0.991759434716
+2014-12-31 07:26:29,897/GBC[INFO]: Wrote preds to pred.dat
+without scaling n_estimators = 100000
+2014-12-31 07:36:56,847/GBC[INFO]: 0.992160 (+/- 0.001065) for {'max_features': 'log2', 'n_estimators': 100000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:36:56,847/GBC[INFO]: params:{'max_features': 'log2', 'n_estimators': 100000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:36:56,847/GBC[INFO]: score:0.992160260865
+2014-12-31 07:37:02,089/GBC[INFO]: Wrote preds to pred.dat
+
+2014-12-31 07:49:33,739/GBC[INFO]: 0.992119 (+/- 0.001077) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0009765625, 'max_depth': 7}
+2014-12-31 07:49:33,739/GBC[INFO]: 0.992112 (+/- 0.001040) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0011613350732448448, 'max_depth': 7}
+2014-12-31 07:49:33,739/GBC[INFO]: 0.992160 (+/- 0.001065) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0013810679320049757, 'max_depth': 7}
+2014-12-31 07:49:33,739/GBC[INFO]: 0.992223 (+/- 0.001050) for {'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0016423758110424111, 'max_depth': 7}
+2014-12-31 07:49:33,740/GBC[INFO]: params:{'max_features': 'log2', 'n_estimators': 50000, 'learning_rate': 0.0016423758110424111, 'max_depth': 7}
+2014-12-31 07:49:33,740/GBC[INFO]: score:0.992222689555
+2014-12-31 07:49:37,242/GBC[INFO]: Wrote preds to pred.dat
+
+## s_21.dat
+blend s_19 and s_20
+
+## s_23.dat
+blend s_10 and s_19
